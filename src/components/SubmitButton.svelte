@@ -3,7 +3,7 @@
   import { isValidInput } from "./store.js";
   import { ImproveMyEnglish } from "../lib/ia";
   // import Loading from "./icons/loading.svelte";
-  let promise;
+  let promise = null;
   const handleClick = async () => {
     const input = document.getElementById("result").value;
     promise = ImproveMyEnglish(input);
