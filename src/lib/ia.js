@@ -1,4 +1,4 @@
-const COHERE_API_KEY = 'XJ3Tx8oPERORSkB9LqZCxbkQ6TTB5XLXpc6VDMVr'
+const COHERE_API_KEY = import.meta.env.PUBLIC_COHERE_API_KEY
 const COHERE_API_GENERATE_URL = 'https://api.cohere.ai/generate'
 const COHERE_API_DETECT_LANGUAGE_URL = 'https://api.cohere.ai/detect-language'
 
