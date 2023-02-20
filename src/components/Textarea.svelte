@@ -7,7 +7,7 @@
 
   const handleChange = async (e) => {
     const { value } = e.target;
-    const isValid = value.length > 7;
+    const isValid = value.length > 0;
     if (!isValid) {
       isValidInput.set(false);
       return;
