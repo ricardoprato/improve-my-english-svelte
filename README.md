@@ -1,10 +1,9 @@
-# Astro Starter Kit: Basics
+# How to use 
 
 ```
-npm create astro@latest -- --template basics
+git clone git@github.com:ricardoprato/improve-my-english-svelte.git
+cd improve-my-english-svelte
 ```
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
 
 ## 🧞 Commands
 
@@ -18,7 +17,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`      | Preview your build locally, before deploying     |
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
