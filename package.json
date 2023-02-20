@@ -10,6 +10,11 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"astro": "^2.0.14"
+		"@astrojs/svelte": "^2.0.2",
+		"@astrojs/tailwind": "^3.0.1",
+		"astro": "^2.0.14",
+		"cohere-ai": "^5.0.2",
+		"svelte": "^3.54.0",
+		"tailwindcss": "^3.0.24"
 	}
 }
